@@ -18,3 +18,34 @@ git remote add origin https://github.com/ficky230596/Skripsi_Tino.git
 
 # 6. Upload (push) kode ke GitHub untuk pertama kali
 git push -u origin main
+
+
+
+------------------------------------------------------
+Push Ulang
+
+# 1. Masukkan semua file yang baru diubah/ditambahkan
+git add .
+
+# 2. Simpan perubahan dengan pesan deskripsi (bebas diubah di dalam tanda kutip)
+git commit -m "Update kode terbaru"
+
+# 3. Kirim (push) perubahan ke GitHub
+git push
+
+------------------------------------------------------
+
+
+ Buat Virtual Environment :
+
+
+python -m venv venv
+
+Aktifkan venv : 
+
+.\venv\Scripts\Activate
+
+
+Instal Semua Dependensi dari requirements.txt : 
+
+pip install -r requirements.txt
